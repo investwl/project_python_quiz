@@ -1,0 +1,5 @@
+print("Hello, i am W.A, an alias from my full name. I started coding since October 2020, just doing some little projects as a small step to become a professional programmer.")
+print("This quiz program is officialy done by the date of June 13th, 2022.\n")
+print("This quiz might not be the perfect quiz, but it is the most greatest project i've done by now. I hope you like the quiz.")
+print("For business inquiries, contact me with :\n")
+print("Email : williangjym@gmail.com\nInstagram : williamangjayam\nLine : willliamang")
