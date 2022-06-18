@@ -17,3 +17,5 @@ The rest would be Logout, About Us, Quiz Instruction, and Exit.
 Logout means changing account, Exit means you stopped playing the game.
 
 That is all about the instructions, best of luck !
+
+March 20th, 2022 - June 18th, 2022, 90 days.
