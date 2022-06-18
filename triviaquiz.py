@@ -1,9 +1,8 @@
-import pdb
 import psycopg
 from pyquiz_mainmenu import mainmenu
 from pyquiz_addquestion import add_question
 from pyquiz_playquiz import playquiz
-#cari cara untuk supaya bisa run ini open, and all is good, i suppose. install git bash.
+from pyquiz_addquestion import fill_answer
 
 if __name__ == '__main__':
     print("Before playing, you have to login with your account first.")
@@ -73,10 +72,11 @@ if __name__ == '__main__':
                     while True:
                         mainchoice = mainmenu()
                         if mainchoice == 1:
-                            playquiz()
+                            play_question = playquiz()
                             continue
                         elif mainchoice == 2:
-                            add_question(userlogged)
+                            add_quiz = add_question(userlogged)
+                            save_answer = fill_answer(add_quiz[0], add_quiz[1], add_quiz[2], add_quiz[3], add_quiz[4])
                             continue
                         elif mainchoice == 3:
                             verify_login = False
